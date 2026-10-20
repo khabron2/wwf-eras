@@ -1,346 +1,328 @@
 #EXTM3U
 
-Aquí tienes la **lista M3U completa para todo el año 2001**, organizada cronológicamente evento por evento.
-
-### Lo que se solucionó y estructuró:
-
-1. **Separación limpia de enlaces:** Se separaron todas las URLs de Archive.org que venían pegadas y se asociaron según la fecha (`WAR-2001` equivale a **RAW is WAR** y `2001.03.15` a **SmackDown!**).
-2. **Logotipos y Posters del Show:** Se asignaron las imágenes oficiales de póster/logo de **RAW** y **SmackDown** (TMDB) para cada programa respectivo en la etiqueta `tvg-logo`.
-3. **Imágenes de episodios y miniaturas:** Se incluyeron las imágenes de TMDB provistas para los episodios.
-4. **Títulos formateados en español:** Cada línea lleva el nombre del show, la fecha en formato DD/MM/AAAA y el grupo correspondiente para que tu reproductor IPTV los organice correctamente.
-
----
-
-### Código M3U listo para copiar y guardar (ej: `WWF_2001.m3u`):
-
-```text
-#EXTM3U
-
 # --- ENERO 2001 ---
-#EXTINF:-1 tvg-id="RAW-2001-01-01" tvg-name="RAW 2001-01-01" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hWyxKRbOMzp1ng6QDzfJmoMeapT.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 01/01/2001
+#EXTINF:-1 tvg-id="RAW-2001-01-01" tvg-name="RAW 2001-01-01" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hWyxKRbOMzp1ng6QDzfJmoMeapT.jpg" tvg-description="Stephanie McMahon-Helmsley obliga a Stone Cold Steve Austin a comenzar su camino de regreso al Campeonato de la WWE desde lo más bajo. Pero tras demostrar su capacidad para realizar cualquier trabajo, The Rattlesnake vuelve a la lucha por el oro al competir en el torneo para coronar a un nuevo Campeón de la WWE." group-title="RAW 2001",RAW is WAR - 01/01/2001
 https://archive.org/download/WAR-2001/2001-01-01.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-01-04" tvg-name="SmackDown 2001-01-04" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2oj1HQg3CJrbORwX8Kj50jSvI6F.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 04/01/2001
+#EXTINF:-1 tvg-id="SD-2001-01-04" tvg-name="SmackDown 2001-01-04" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2oj1HQg3CJrbORwX8Kj50jSvI6F.jpg" group-title="SmackDown 2001",SmackDown! - 04/01/2001
 https://archive.org/download/2001.03.15/2001.01.04.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-01-08" tvg-name="RAW 2001-01-08" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/acLK418SAck49NoG5baaMseEO2r.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 08/01/2001
+#EXTINF:-1 tvg-id="RAW-2001-01-08" tvg-name="RAW 2001-01-08" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/acLK418SAck49NoG5baaMseEO2r.jpg" tvg-description="Stone Cold Steve Austin desafía a Kurt Angle por el Campeonato de la WWE en el evento principal. Mr. McMahon busca enseñarle un poco de respeto a The Rock." group-title="RAW 2001",RAW is WAR - 08/01/2001
 https://archive.org/download/WAR-2001/2001-01-08.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-01-11" tvg-name="SmackDown 2001-01-11" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/qPmLtsTVrWPOqjTyMTEhi24P9Jn.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 11/01/2001
+#EXTINF:-1 tvg-id="SD-2001-01-11" tvg-name="SmackDown 2001-01-11" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/qPmLtsTVrWPOqjTyMTEhi24P9Jn.jpg" group-title="SmackDown 2001",SmackDown! - 11/01/2001
 https://archive.org/download/2001.03.15/2001.01.11.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-01-15" tvg-name="RAW 2001-01-15" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xBYN6st7n7ImJklU2dBBWVM0yli.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 15/01/2001
+#EXTINF:-1 tvg-id="RAW-2001-01-15" tvg-name="RAW 2001-01-15" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xBYN6st7n7ImJklU2dBBWVM0yli.jpg" tvg-description="Stone Cold Steve Austin es obligado a competir en el evento principal contra Kurt Angle y Edge & Christian. Además, The Undertaker & Rikishi se unen para enfrentarse a Kane & The Rock, Chris Jericho busca escalar la escalera del éxito, y más." group-title="RAW 2001",RAW is WAR - 15/01/2001
 https://archive.org/download/WAR-2001/2001-01-15.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-01-18" tvg-name="SmackDown 2001-01-18" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 18/01/2001
+#EXTINF:-1 tvg-id="SD-2001-01-18" tvg-name="SmackDown 2001-01-18" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="SmackDown 2001",SmackDown! - 18/01/2001
 https://archive.org/download/2001.03.15/2001.01.18.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-01-22" tvg-name="RAW 2001-01-22" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/wmDCGlXSA8c20KVWfpXW3BNAe4v.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 22/01/2001
+#EXTINF:-1 tvg-id="RAW-2001-01-22" tvg-name="RAW 2001-01-22" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/wmDCGlXSA8c20KVWfpXW3BNAe4v.jpg" tvg-description="Con Stone Cold Steve Austin en camino al evento principal de WrestleMania tras ganar el Royal Rumble, Triple H busca frenar su racha. Triple H & Stephanie McMahon-Helmsley se enfrentan a Trish Stratus & Kurt Angle. Además, The Rock & Chris Jericho se unen en acción tag team." group-title="RAW 2001",RAW is WAR - 22/01/2001
 https://archive.org/download/WAR-2001/2001-01-22.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-01-25" tvg-name="SmackDown 2001-01-25" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 25/01/2001
+#EXTINF:-1 tvg-id="SD-2001-01-25" tvg-name="SmackDown 2001-01-25" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="SmackDown 2001",SmackDown! - 25/01/2001
 https://archive.org/download/2001.03.15/2001.01.25.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-01-29" tvg-name="RAW 2001-01-29" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vB2YJqWLFHLVSrCxDoMWxg5MMV8.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 29/01/2001
+#EXTINF:-1 tvg-id="RAW-2001-01-29" tvg-name="RAW 2001-01-29" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vB2YJqWLFHLVSrCxDoMWxg5MMV8.jpg" tvg-description="Mr. McMahon arbitra la firma de contrato entre Stone Cold Steve Austin y Triple H para No Way Out, bajo la estipulación de no agredirse físicamente. The Rock compite en una lucha de 4 esquinas por una oportunidad al título de Kurt Angle." group-title="RAW 2001",RAW is WAR - 29/01/2001
 https://archive.org/download/WAR-2001/2001-01-29.mp4
 
 # --- FEBRERO 2001 ---
-#EXTINF:-1 tvg-id="SD-2001-02-01" tvg-name="SmackDown 2001-02-01" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rMDMKADIJyiIdhWRnAHRLVQovuZ.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 01/02/2001
+#EXTINF:-1 tvg-id="SD-2001-02-01" tvg-name="SmackDown 2001-02-01" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rMDMKADIJyiIdhWRnAHRLVQovuZ.jpg" group-title="SmackDown 2001",SmackDown! - 01/02/2001
 https://archive.org/download/2001.03.15/2001.02.01.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-02-05" tvg-name="RAW 2001-02-05" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kCdZ1CrkDPkzwA30HglFKCJHBOA.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 05/02/2001
+#EXTINF:-1 tvg-id="RAW-2001-02-05" tvg-name="RAW 2001-02-05" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kCdZ1CrkDPkzwA30HglFKCJHBOA.jpg" tvg-description="Mr. McMahon ordena a Stone Cold Steve Austin y a Triple H hacer equipo para enfrentarse a The Rock y al Campeón de la WWE Kurt Angle en el evento principal. Además, la relación romántica de Trish Stratus causa tensión con Stephanie McMahon-Helmsley." group-title="RAW 2001",RAW is WAR - 05/02/2001
 https://archive.org/download/WAR-2001/2001-02-05.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-02-08" tvg-name="SmackDown 2001-02-08" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 08/02/2001
+#EXTINF:-1 tvg-id="SD-2001-02-08" tvg-name="SmackDown 2001-02-08" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="SmackDown 2001",SmackDown! - 08/02/2001
 https://archive.org/download/2001.03.15/2001.02.08.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-02-12" tvg-name="RAW 2001-02-12" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/lyGzJrAMM1ZpCDIfNG6897lazoc.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 12/02/2001
+#EXTINF:-1 tvg-id="RAW-2001-02-12" tvg-name="RAW 2001-02-12" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/lyGzJrAMM1ZpCDIfNG6897lazoc.jpg" tvg-description="Mr. McMahon planea un regalo especial de San Valentín para su esposa. The Rock se enfrenta a Rikishi en el evento principal con una estipulación única sobre la lucha de Austin y Triple H en No Way Out. Chris Jericho defiende el Intercontinental Championship." group-title="RAW 2001",RAW is WAR - 12/02/2001
 https://archive.org/download/WAR-2001/2001-02-12.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-02-15" tvg-name="SmackDown 2001-02-15" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/qPmLtsTVrWPOqjTyMTEhi24P9Jn.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 15/02/2001
+#EXTINF:-1 tvg-id="SD-2001-02-15" tvg-name="SmackDown 2001-02-15" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/qPmLtsTVrWPOqjTyMTEhi24P9Jn.jpg" group-title="SmackDown 2001",SmackDown! - 15/02/2001
 https://archive.org/download/2001.03.15/2001.02.15.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-02-19" tvg-name="RAW 2001-02-19" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xNFumbn31fMf5ble2XWxgXcHBUu.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 19/02/2001
+#EXTINF:-1 tvg-id="RAW-2001-02-19" tvg-name="RAW 2001-02-19" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xNFumbn31fMf5ble2XWxgXcHBUu.jpg" tvg-description="Los celos de Stephanie McMahon hacia la amante de Mr. McMahon la llevan a encarar a Trish Stratus, pero al responder Stone Cold a su invitación, Triple H lucha por mantener el control. The Undertaker se mide a D-Von Dudley y Christian." group-title="RAW 2001",RAW is WAR - 19/02/2001
 https://archive.org/download/WAR-2001/2001-02-19.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-02-22" tvg-name="SmackDown 2001-02-22" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 22/02/2001
+#EXTINF:-1 tvg-id="SD-2001-02-22" tvg-name="SmackDown 2001-02-22" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="SmackDown 2001",SmackDown! - 22/02/2001
 https://archive.org/download/2001.03.15/2001.02.22.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-02-26" tvg-name="RAW 2001-02-26" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hmhn1mf69i2y8CSNV2ehkXRefrl.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 26/02/2001
+#EXTINF:-1 tvg-id="RAW-2001-02-26" tvg-name="RAW 2001-02-26" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hmhn1mf69i2y8CSNV2ehkXRefrl.jpg" tvg-description="El camino a WrestleMania X-Seven inicia oficialmente con la presencia de Stone Cold interviniendo en la Triple Threat entre The Rock, Kurt Angle y Big Show. Trish Stratus descubre la dura realidad sobre su relación con Vince McMahon." group-title="RAW 2001",RAW is WAR - 26/02/2001
 https://archive.org/download/WAR-2001/2001-02-26.mp4
 
 # --- MARZO 2001 ---
-#EXTINF:-1 tvg-id="SD-2001-03-01" tvg-name="SmackDown 2001-03-01" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 01/03/2001
+#EXTINF:-1 tvg-id="SD-2001-03-01" tvg-name="SmackDown 2001-03-01" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="SmackDown 2001",SmackDown! - 01/03/2001
 https://archive.org/download/2001.03.15/2001.03.01.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-03-05" tvg-name="RAW 2001-03-05" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vB2YJqWLFHLVSrCxDoMWxg5MMV8.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 05/03/2001
+#EXTINF:-1 tvg-id="RAW-2001-03-05" tvg-name="RAW 2001-03-05" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vB2YJqWLFHLVSrCxDoMWxg5MMV8.jpg" tvg-description="Stone Cold Steve Austin & The Rock se miden a Triple H & Kurt Angle, pero el rumbo a WrestleMania se vuelve personal cuando Mr. McMahon asigna una nueva manager para The Great One. Vince lleva su humillación a Trish Stratus a un nivel despiadado." group-title="RAW 2001",RAW is WAR - 05/03/2001
 https://archive.org/download/WAR-2001/2001-03-05.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-03-08" tvg-name="SmackDown 2001-03-08" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rMDMKADIJyiIdhWRnAHRLVQovuZ.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 08/03/2001
+#EXTINF:-1 tvg-id="SD-2001-03-08" tvg-name="SmackDown 2001-03-08" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rMDMKADIJyiIdhWRnAHRLVQovuZ.jpg" group-title="SmackDown 2001",SmackDown! - 08/03/2001
 https://archive.org/download/2001.03.15/2001.03.08.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-03-12" tvg-name="RAW 2001-03-12" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xBYN6st7n7ImJklU2dBBWVM0yli.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 12/03/2001
+#EXTINF:-1 tvg-id="RAW-2001-03-12" tvg-name="RAW 2001-03-12" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xBYN6st7n7ImJklU2dBBWVM0yli.jpg" tvg-description="William Regal ordena a The Rock defender el título de la WWE ante Kurt Angle, llevando a Steve Austin a enviarle una advertencia. Triple H busca demostrarle a The Undertaker cómo jugar el juego tras ser confrontado en SmackDown." group-title="RAW 2001",RAW is WAR - 12/03/2001
 https://archive.org/download/WAR-2001/2001-03-12.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-03-15" tvg-name="SmackDown 2001-03-15" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 15/03/2001
+#EXTINF:-1 tvg-id="SD-2001-03-15" tvg-name="SmackDown 2001-03-15" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="SmackDown 2001",SmackDown! - 15/03/2001
 https://archive.org/download/2001.03.15/2001.03.15.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-03-19" tvg-name="RAW 2001-03-19" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kCdZ1CrkDPkzwA30HglFKCJHBOA.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 19/03/2001
+#EXTINF:-1 tvg-id="RAW-2001-03-19" tvg-name="RAW 2001-03-19" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kCdZ1CrkDPkzwA30HglFKCJHBOA.jpg" tvg-description="Mientras se prepara para hacer equipo con Chris Jericho en un Handicap Match, The Rock planea vengarse de Steve Austin. Shane McMahon confronta las acciones de su padre y lo desafía a un combate en el escenario más grande de todos." group-title="RAW 2001",RAW is WAR - 19/03/2001
 https://archive.org/download/WAR-2001/2001-03-19.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-03-22" tvg-name="SmackDown 2001-03-22" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 22/03/2001
+#EXTINF:-1 tvg-id="SD-2001-03-22" tvg-name="SmackDown 2001-03-22" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="SmackDown 2001",SmackDown! - 22/03/2001
 https://archive.org/download/2001.03.15/2001.03.22.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-03-26" tvg-name="RAW 2001-03-26" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hWyxKRbOMzp1ng6QDzfJmoMeapT.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 26/03/2001 (Final Nitro / Simu-cast)
+#EXTINF:-1 tvg-id="RAW-2001-03-26" tvg-name="RAW 2001-03-26" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hWyxKRbOMzp1ng6QDzfJmoMeapT.jpg" tvg-description="Momento histórico en el entretenimiento deportivo: Vince McMahon anuncia la compra de WCW en una transmisión simultánea con Nitro. Brothers of Destruction enfrentan a The Rock y Steve Austin. Mensaje especial de Mick Foley." group-title="RAW 2001",RAW is WAR - 26/03/2001
 https://archive.org/download/WAR-2001/2001-03-26.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-03-29" tvg-name="SmackDown 2001-03-29" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2oj1HQg3CJrbORwX8Kj50jSvI6F.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 29/03/2001
+#EXTINF:-1 tvg-id="SD-2001-03-29" tvg-name="SmackDown 2001-03-29" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2oj1HQg3CJrbORwX8Kj50jSvI6F.jpg" group-title="SmackDown 2001",SmackDown! - 29/03/2001
 https://archive.org/download/2001.03.15/2001.03.29.mp4
 
 # --- ABRIL 2001 ---
-#EXTINF:-1 tvg-id="RAW-2001-04-02" tvg-name="RAW 2001-04-02" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/acLK418SAck49NoG5baaMseEO2r.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 02/04/2001 (Post-WrestleMania X-Seven)
+#EXTINF:-1 tvg-id="RAW-2001-04-02" tvg-name="RAW 2001-04-02" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/acLK418SAck49NoG5baaMseEO2r.jpg" tvg-description="Steve Austin comienza su reinado como Campeón de la WWE al lado de Vince McMahon. Disconforme con la alianza, The Rock exige una revancha dentro de una Jaula de Acero. Stephanie McMahon lucha contra Trish Stratus." group-title="RAW 2001",RAW is WAR - 02/04/2001
 https://archive.org/download/WAR-2001/2001-04-02.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-04-05" tvg-name="SmackDown 2001-04-05" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/qPmLtsTVrWPOqjTyMTEhi24P9Jn.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 05/04/2001
+#EXTINF:-1 tvg-id="SD-2001-04-05" tvg-name="SmackDown 2001-04-05" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/qPmLtsTVrWPOqjTyMTEhi24P9Jn.jpg" group-title="SmackDown 2001",SmackDown! - 05/04/2001
 https://archive.org/download/2001.03.15/2001.04.05.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-04-09" tvg-name="RAW 2001-04-09" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xBYN6st7n7ImJklU2dBBWVM0yli.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 09/04/2001
+#EXTINF:-1 tvg-id="RAW-2001-04-09" tvg-name="RAW 2001-04-09" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xBYN6st7n7ImJklU2dBBWVM0yli.jpg" tvg-description="Linda McMahon suelta una revelación impactante sobre Vince. Triple H y Stephanie McMahon-Helmsley hacen equipo con el Campeón de la WWE Stone Cold Steve Austin para medirse ante The Hardy Boyz y Lita." group-title="RAW 2001",RAW is WAR - 09/04/2001
 https://archive.org/download/WAR-2001/2001-04-09.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-04-12" tvg-name="SmackDown 2001-04-12" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 12/04/2001
+#EXTINF:-1 tvg-id="SD-2001-04-12" tvg-name="SmackDown 2001-04-12" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="SmackDown 2001",SmackDown! - 12/04/2001
 https://archive.org/download/2001.03.15/2001.04.12.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-04-16" tvg-name="RAW 2001-04-16" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/wmDCGlXSA8c20KVWfpXW3BNAe4v.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 16/04/2001
+#EXTINF:-1 tvg-id="RAW-2001-04-16" tvg-name="RAW 2001-04-16" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/wmDCGlXSA8c20KVWfpXW3BNAe4v.jpg" tvg-description="Matt Hardy cobra venganza atacando a Stone Cold Steve Austin, pero Jeff Hardy se ve obligado a defender su nuevo Campeonato Intercontinental contra Triple H en el turno estelar. Edge y Christian defienden los títulos en parejas." group-title="RAW 2001",RAW is WAR - 16/04/2001
 https://archive.org/download/WAR-2001/2001-04-16.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-04-19" tvg-name="SmackDown 2001-04-19" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 19/04/2001
+#EXTINF:-1 tvg-id="SD-2001-04-19" tvg-name="SmackDown 2001-04-19" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="SmackDown 2001",SmackDown! - 19/04/2001
 https://archive.org/download/2001.03.15/2001.04.19.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-04-23" tvg-name="RAW 2001-04-23" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vB2YJqWLFHLVSrCxDoMWxg5MMV8.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 23/04/2001
+#EXTINF:-1 tvg-id="RAW-2001-04-23" tvg-name="RAW 2001-04-23" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vB2YJqWLFHLVSrCxDoMWxg5MMV8.jpg" tvg-description="Stone Cold Steve Austin y Triple H unen fuerzas con Edge & Christian para enfrentar a The Brothers of Destruction y The Hardy Boyz en un gran combate de 8 hombres. Shane McMahon interviene durante el choque entre Big Show y Test." group-title="RAW 2001",RAW is WAR - 23/04/2001
 https://archive.org/download/WAR-2001/2001-04-23.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-04-26" tvg-name="SmackDown 2001-04-26" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rMDMKADIJyiIdhWRnAHRLVQovuZ.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 26/04/2001
+#EXTINF:-1 tvg-id="SD-2001-04-26" tvg-name="SmackDown 2001-04-26" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rMDMKADIJyiIdhWRnAHRLVQovuZ.jpg" group-title="SmackDown 2001",SmackDown! - 26/04/2001
 https://archive.org/download/2001.03.15/2001.04.26.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-04-30" tvg-name="RAW 2001-04-30" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kCdZ1CrkDPkzwA30HglFKCJHBOA.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 30/04/2001
+#EXTINF:-1 tvg-id="RAW-2001-04-30" tvg-name="RAW 2001-04-30" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kCdZ1CrkDPkzwA30HglFKCJHBOA.jpg" tvg-description="Linda McMahon obliga a Steve Austin a defender el título ante The Undertaker. Triple H se mide ante Test, mientras Chris Jericho reta a Rhyno por el Hardcore Championship. Kurt Angle pierde trágicamente sus medallas olímpicas." group-title="RAW 2001",RAW is WAR - 30/04/2001
 https://archive.org/download/WAR-2001/2001-04-30.mp4
 
 # --- MAYO 2001 ---
-#EXTINF:-1 tvg-id="SD-2001-05-03" tvg-name="SmackDown 2001-05-03" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 03/05/2001
+#EXTINF:-1 tvg-id="SD-2001-05-03" tvg-name="SmackDown 2001-05-03" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="SmackDown 2001",SmackDown! - 03/05/2001
 https://archive.org/download/2001.03.15/2001.05.03.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-05-07" tvg-name="RAW 2001-05-07" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/lyGzJrAMM1ZpCDIfNG6897lazoc.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 07/05/2001
+#EXTINF:-1 tvg-id="RAW-2001-05-07" tvg-name="RAW 2001-05-07" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/lyGzJrAMM1ZpCDIfNG6897lazoc.jpg" tvg-description="Rikishi se rehúsa a seguir siendo un peón de Mr. McMahon y termina pactando una lucha mano a mano contra Stone Cold Steve Austin. Chris Jericho mete su rivalidad con William Regal dentro de una jaula de acero." group-title="RAW 2001",RAW is WAR - 07/05/2001
 https://archive.org/download/WAR-2001/2001-05-07.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-05-10" tvg-name="SmackDown 2001-05-10" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/qPmLtsTVrWPOqjTyMTEhi24P9Jn.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 10/05/2001
+#EXTINF:-1 tvg-id="SD-2001-05-10" tvg-name="SmackDown 2001-05-10" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/qPmLtsTVrWPOqjTyMTEhi24P9Jn.jpg" group-title="SmackDown 2001",SmackDown! - 10/05/2001
 https://archive.org/download/2001.03.15/2001.05.10.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-05-14" tvg-name="RAW 2001-05-14" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xNFumbn31fMf5ble2XWxgXcHBUu.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 14/05/2001
+#EXTINF:-1 tvg-id="RAW-2001-05-14" tvg-name="RAW 2001-05-14" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xNFumbn31fMf5ble2XWxgXcHBUu.jpg" tvg-description="Steve Austin y Triple H retan a Kane & The Undertaker a una Lucha de Cadenas. La situación se vuelve sumamente personal tras una emboscada orquestada para neutralizar al Phenom. Kurt Angle se enfrenta a Rikishi." group-title="RAW 2001",RAW is WAR - 14/05/2001
 https://archive.org/download/WAR-2001/2001-05-14.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-05-17" tvg-name="SmackDown 2001-05-17" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 17/05/2001
+#EXTINF:-1 tvg-id="SD-2001-05-17" tvg-name="SmackDown 2001-05-17" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="SmackDown 2001",SmackDown! - 17/05/2001
 https://archive.org/download/2001.03.15/2001.05.17.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-05-21" tvg-name="RAW 2001-05-21" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hmhn1mf69i2y8CSNV2ehkXRefrl.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 21/05/2001
+#EXTINF:-1 tvg-id="RAW-2001-05-21" tvg-name="RAW 2001-05-21" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hmhn1mf69i2y8CSNV2ehkXRefrl.jpg" tvg-description="Austin y Triple H ostentan el Campeonato de WWE, Intercontinental y por Parejas simultáneamente. Chris Jericho los reta en el evento principal junto a un compañero sorpresa. Shane McMahon arruina la ceremonia de Kurt Angle." group-title="RAW 2001",RAW is WAR - 21/05/2001
 https://archive.org/download/WAR-2001/2001-05-21.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-05-24" tvg-name="SmackDown 2001-05-24" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 24/05/2001
+#EXTINF:-1 tvg-id="SD-2001-05-24" tvg-name="SmackDown 2001-05-24" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="SmackDown 2001",SmackDown! - 24/05/2001
 https://archive.org/download/2001.03.15/2001.05.24.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-05-28" tvg-name="RAW 2001-05-28" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vB2YJqWLFHLVSrCxDoMWxg5MMV8.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 28/05/2001
+#EXTINF:-1 tvg-id="RAW-2001-05-28" tvg-name="RAW 2001-05-28" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vB2YJqWLFHLVSrCxDoMWxg5MMV8.jpg" tvg-description="Chris Jericho intenta conseguir una oportunidad titular contra Steve Austin, pero Mr. McMahon frena sus planes. Dudley Boyz chocan contra Holly Cousins. Big Show defiende el Hardcore Championship." group-title="RAW 2001",RAW is WAR - 28/05/2001
 https://archive.org/download/WAR-2001/2001-05-28.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-05-31" tvg-name="SmackDown 2001-05-31" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rMDMKADIJyiIdhWRnAHRLVQovuZ.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 31/05/2001
+#EXTINF:-1 tvg-id="SD-2001-05-31" tvg-name="SmackDown 2001-05-31" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rMDMKADIJyiIdhWRnAHRLVQovuZ.jpg" group-title="SmackDown 2001",SmackDown! - 31/05/2001
 https://archive.org/download/2001.03.15/2001.05.31.mp4
 
 # --- JUNIO 2001 ---
-#EXTINF:-1 tvg-id="RAW-2001-06-04" tvg-name="RAW 2001-06-04" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xBYN6st7n7ImJklU2dBBWVM0yli.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 04/06/2001
+#EXTINF:-1 tvg-id="RAW-2001-06-04" tvg-name="RAW 2001-06-04" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xBYN6st7n7ImJklU2dBBWVM0yli.jpg" tvg-description="Steve Austin defiende el Campeonato de la WWE contra Chris Jericho en la lucha estelar. The Undertaker persigue incansablemente al acosador de su esposa. Inician las luchas clasificatorias a King of the Ring 2001." group-title="RAW 2001",RAW is WAR - 04/06/2001
 https://archive.org/download/WAR-2001/2001-06-04.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-06-07" tvg-name="SmackDown 2001-06-07" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 07/06/2001
+#EXTINF:-1 tvg-id="SD-2001-06-07" tvg-name="SmackDown 2001-06-07" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="SmackDown 2001",SmackDown! - 07/06/2001
 https://archive.org/download/2001.03.15/2001.06.07.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-06-11" tvg-name="RAW 2001-06-11" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kCdZ1CrkDPkzwA30HglFKCJHBOA.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 11/06/2001
+#EXTINF:-1 tvg-id="RAW-2001-06-11" tvg-name="RAW 2001-06-11" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kCdZ1CrkDPkzwA30HglFKCJHBOA.jpg" tvg-description="Kurt Angle entra a la jaula contra otro experto de las sumisiones. Chris Jericho combate ante Rhyno y Big Show en una amenaza triple. Continúan las clasificatorias para el torneo King of the Ring." group-title="RAW 2001",RAW is WAR - 11/06/2001
 https://archive.org/download/WAR-2001/2001-06-11.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-06-14" tvg-name="SmackDown 2001-06-14" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 14/06/2001
+#EXTINF:-1 tvg-id="SD-2001-06-14" tvg-name="SmackDown 2001-06-14" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="SmackDown 2001",SmackDown! - 14/06/2001
 https://archive.org/download/2001.03.15/2001.06.14.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-06-18" tvg-name="RAW 2001-06-18" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hWyxKRbOMzp1ng6QDzfJmoMeapT.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 18/06/2001
+#EXTINF:-1 tvg-id="RAW-2001-06-18" tvg-name="RAW 2001-06-18" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hWyxKRbOMzp1ng6QDzfJmoMeapT.jpg" tvg-description="Se revela por fin la identidad del acosador de Sara, la esposa de The Undertaker. La intimidación de Steve Austin hacia Spike Dudley y Molly Holly desata un combate de tercias en el evento central." group-title="RAW 2001",RAW is WAR - 18/06/2001
 https://archive.org/download/WAR-2001/2001-06-18.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-06-21" tvg-name="SmackDown 2001-06-21" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2oj1HQg3CJrbORwX8Kj50jSvI6F.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 21/06/2001
+#EXTINF:-1 tvg-id="SD-2001-06-21" tvg-name="SmackDown 2001-06-21" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2oj1HQg3CJrbORwX8Kj50jSvI6F.jpg" group-title="SmackDown 2001",SmackDown! - 21/06/2001
 https://archive.org/download/2001.03.15/2001.06.21.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-06-25" tvg-name="RAW 2001-06-25" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/acLK418SAck49NoG5baaMseEO2r.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 25/06/2001
+#EXTINF:-1 tvg-id="RAW-2001-06-25" tvg-name="RAW 2001-06-25" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/acLK418SAck49NoG5baaMseEO2r.jpg" tvg-description="Shane McMahon y el grupo de invasores de WCW buscan volver a dejar en ridículo a Mr. McMahon. Steve Austin y Kurt Angle van tras Booker T. Edge celebra su triunfo como King of the Ring 2001." group-title="RAW 2001",RAW is WAR - 25/06/2001
 https://archive.org/download/WAR-2001/2001-06-25.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-06-28" tvg-name="SmackDown 2001-06-28" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/qPmLtsTVrWPOqjTyMTEhi24P9Jn.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 28/06/2001
+#EXTINF:-1 tvg-id="SD-2001-06-28" tvg-name="SmackDown 2001-06-28" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/qPmLtsTVrWPOqjTyMTEhi24P9Jn.jpg" group-title="SmackDown 2001",SmackDown! - 28/06/2001
 https://archive.org/download/2001.03.15/2001.06.28.mp4
 
 # --- JULIO 2001 ---
-#EXTINF:-1 tvg-id="RAW-2001-07-02" tvg-name="RAW 2001-07-02" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xBYN6st7n7ImJklU2dBBWVM0yli.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 02/07/2001
+#EXTINF:-1 tvg-id="RAW-2001-07-02" tvg-name="RAW 2001-07-02" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xBYN6st7n7ImJklU2dBBWVM0yli.jpg" tvg-description="Booker T defiende el Campeonato Mundial de WCW contra Buff Bagwell en la primera lucha estelar de WCW en la historia de Raw. Aumentan las tensiones entre Kurt Angle y Stone Cold. DDP ataca de nuevo a Undertaker." group-title="RAW 2001",RAW is WAR - 02/07/2001
 https://archive.org/download/WAR-2001/2001-07-02.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-07-05" tvg-name="SmackDown 2001-07-05" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 05/07/2001
+#EXTINF:-1 tvg-id="SD-2001-07-05" tvg-name="SmackDown 2001-07-05" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="SmackDown 2001",SmackDown! - 05/07/2001
 https://archive.org/download/2001.03.15/2001.07.05.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-07-09" tvg-name="RAW 2001-07-09" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/wmDCGlXSA8c20KVWfpXW3BNAe4v.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 09/07/2001 (Nace The Alliance)
+#EXTINF:-1 tvg-id="RAW-2001-07-09" tvg-name="RAW 2001-07-09" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/wmDCGlXSA8c20KVWfpXW3BNAe4v.jpg" tvg-description="¡La invasión llega al extremo! ECW entra en el conflicto uniendo fuerzas con WCW para crear The Alliance. Undertaker choca con DDP en una Pelea Callejera." group-title="RAW 2001",RAW is WAR - 09/07/2001
 https://archive.org/download/WAR-2001/2001-07-09.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-07-12" tvg-name="SmackDown 2001-07-12" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 12/07/2001
+#EXTINF:-1 tvg-id="SD-2001-07-12" tvg-name="SmackDown 2001-07-12" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="SmackDown 2001",SmackDown! - 12/07/2001
 https://archive.org/download/2001.03.15/2001.07.12.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-07-16" tvg-name="RAW 2001-07-16" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vB2YJqWLFHLVSrCxDoMWxg5MMV8.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 16/07/2001
+#EXTINF:-1 tvg-id="RAW-2001-07-16" tvg-name="RAW 2001-07-16" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vB2YJqWLFHLVSrCxDoMWxg5MMV8.jpg" tvg-description="El bando de la WWE está contra las cuerdas frente a la alianza entre WCW y ECW. Los Dudley Boyz le envían un castigo extremo a Spike Dudley. Booker T defiende el oro ante Chris Jericho." group-title="RAW 2001",RAW is WAR - 16/07/2001
 https://archive.org/download/WAR-2001/2001-07-16.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-07-19" tvg-name="SmackDown 2001-07-19" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rMDMKADIJyiIdhWRnAHRLVQovuZ.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 19/07/2001
+#EXTINF:-1 tvg-id="SD-2001-07-19" tvg-name="SmackDown 2001-07-19" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rMDMKADIJyiIdhWRnAHRLVQovuZ.jpg" group-title="SmackDown 2001",SmackDown! - 19/07/2001
 https://archive.org/download/2001.03.15/2001.07.19.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-07-23" tvg-name="RAW 2001-07-23" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kCdZ1CrkDPkzwA30HglFKCJHBOA.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 23/07/2001
+#EXTINF:-1 tvg-id="RAW-2001-07-23" tvg-name="RAW 2001-07-23" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kCdZ1CrkDPkzwA30HglFKCJHBOA.jpg" tvg-description="Tras traicionar a la WWE en Invasion y convertirse en el líder de The Alliance, Stone Cold explica sus acciones. Kurt Angle, Edge y Christian hacen equipo para frenar a los Dudleys y Booker T." group-title="RAW 2001",RAW is WAR - 23/07/2001
 https://archive.org/download/WAR-2001/2001-07-23.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-07-26" tvg-name="SmackDown 2001-07-26" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 26/07/2001
+#EXTINF:-1 tvg-id="SD-2001-07-26" tvg-name="SmackDown 2001-07-26" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="SmackDown 2001",SmackDown! - 26/07/2001
 https://archive.org/download/2001.03.15/2001.07.26.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-07-30" tvg-name="RAW 2001-07-30" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/lyGzJrAMM1ZpCDIfNG6897lazoc.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 30/07/2001
+#EXTINF:-1 tvg-id="RAW-2001-07-30" tvg-name="RAW 2001-07-30" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/lyGzJrAMM1ZpCDIfNG6897lazoc.jpg" tvg-description="Vince McMahon le da la bienvenida de regreso a The Rock para liderar el bando de WWE. Kurt Angle intenta arrebatarle el título de WCW a Booker T en una lucha sin descalificación." group-title="RAW 2001",RAW is WAR - 30/07/2001
 https://archive.org/download/WAR-2001/2001-07-30.mp4
 
 # --- AGOSTO 2001 ---
-#EXTINF:-1 tvg-id="SD-2001-08-02" tvg-name="SmackDown 2001-08-02" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/qPmLtsTVrWPOqjTyMTEhi24P9Jn.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 02/08/2001
+#EXTINF:-1 tvg-id="SD-2001-08-02" tvg-name="SmackDown 2001-08-02" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/qPmLtsTVrWPOqjTyMTEhi24P9Jn.jpg" group-title="SmackDown 2001",SmackDown! - 02/08/2001
 https://archive.org/download/2001.03.15/2001.08.02.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-08-06" tvg-name="RAW 2001-08-06" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xNFumbn31fMf5ble2XWxgXcHBUu.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 06/08/2001
+#EXTINF:-1 tvg-id="RAW-2001-08-06" tvg-name="RAW 2001-08-06" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xNFumbn31fMf5ble2XWxgXcHBUu.jpg" tvg-description="Shane McMahon se enfrenta a The Rock en una Pelea Callejera. Chris Jericho confronta duramente a Stephanie McMahon. Rob Van Dam defiende el título Hardcore ante Kane." group-title="RAW 2001",RAW is WAR - 06/08/2001
 https://archive.org/download/WAR-2001/2001-08-06.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-08-09" tvg-name="SmackDown 2001-08-09" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 09/08/2001
+#EXTINF:-1 tvg-id="SD-2001-08-09" tvg-name="SmackDown 2001-08-09" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="SmackDown 2001",SmackDown! - 09/08/2001
 https://archive.org/download/2001.03.15/2001.08.09.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-08-13" tvg-name="RAW 2001-08-13" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hmhn1mf69i2y8CSNV2ehkXRefrl.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 13/08/2001
+#EXTINF:-1 tvg-id="RAW-2001-08-13" tvg-name="RAW 2001-08-13" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hmhn1mf69i2y8CSNV2ehkXRefrl.jpg" tvg-description="Steve Austin pone en marcha su plan para ordenar a The Alliance. The Rock y Chris Jericho forman equipo para combatir a Rhyno y Booker T. Lucha en Jaula por los títulos en parejas de WCW." group-title="RAW 2001",RAW is WAR - 13/08/2001
 https://archive.org/download/WAR-2001/2001-08-13.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-08-16" tvg-name="SmackDown 2001-08-16" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 16/08/2001
+#EXTINF:-1 tvg-id="SD-2001-08-16" tvg-name="SmackDown 2001-08-16" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="SmackDown 2001",SmackDown! - 16/08/2001
 https://archive.org/download/2001.03.15/2001.08.16.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-08-20" tvg-name="RAW 2001-08-20" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vB2YJqWLFHLVSrCxDoMWxg5MMV8.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 20/08/2001
+#EXTINF:-1 tvg-id="RAW-2001-08-20" tvg-name="RAW 2001-08-20" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vB2YJqWLFHLVSrCxDoMWxg5MMV8.jpg" tvg-description="Se celebra la Noche de Apreciación a Stone Cold Steve Austin. The Alliance y las superestrellas de la WWE desatan una guerra total en el cuadrilátero. The Rock se mide ante Lance Storm." group-title="RAW 2001",RAW is WAR - 20/08/2001
 https://archive.org/download/WAR-2001/2001-08-20.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-08-23" tvg-name="SmackDown 2001-08-23" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rMDMKADIJyiIdhWRnAHRLVQovuZ.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 23/08/2001
+#EXTINF:-1 tvg-id="SD-2001-08-23" tvg-name="SmackDown 2001-08-23" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rMDMKADIJyiIdhWRnAHRLVQovuZ.jpg" group-title="SmackDown 2001",SmackDown! - 23/08/2001
 https://archive.org/download/2001.03.15/2001.08.23.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-08-27" tvg-name="RAW 2001-08-27" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xBYN6st7n7ImJklU2dBBWVM0yli.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 27/08/2001
+#EXTINF:-1 tvg-id="RAW-2001-08-27" tvg-name="RAW 2001-08-27" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xBYN6st7n7ImJklU2dBBWVM0yli.jpg" tvg-description="Kurt Angle y Chris Jericho retan a Steve Austin a un combate en parejas, pero tras una fingida lesión, Austin envía a Raven y RVD en su lugar. The Rock defiende el campeonato de WCW frente a Rhyno." group-title="RAW 2001",RAW is WAR - 27/08/2001
 https://archive.org/download/WAR-2001/2001-08-27.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-08-30" tvg-name="SmackDown 2001-08-30" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 30/08/2001
+#EXTINF:-1 tvg-id="SD-2001-08-30" tvg-name="SmackDown 2001-08-30" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="SmackDown 2001",SmackDown! - 30/08/2001
 https://archive.org/download/2001.03.15/2001.08.30.mp4
 
 # --- SEPTIEMBRE 2001 ---
-#EXTINF:-1 tvg-id="RAW-2001-09-03" tvg-name="RAW 2001-09-03" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kCdZ1CrkDPkzwA30HglFKCJHBOA.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 03/09/2001
+#EXTINF:-1 tvg-id="RAW-2001-09-03" tvg-name="RAW 2001-09-03" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kCdZ1CrkDPkzwA30HglFKCJHBOA.jpg" tvg-description="Tras el incidente en el río de Detroit donde se arrojaron las medallas de Kurt Angle, Steve Austin afronta severas consecuencias. Christian intenta arrebatarle el título de WCW a The Rock." group-title="RAW 2001",RAW is WAR - 03/09/2001
 https://archive.org/download/WAR-2001/2001-09-03.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-09-04" tvg-name="SmackDown 2001-09-04" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 04/09/2001
+#EXTINF:-1 tvg-id="SD-2001-09-04" tvg-name="SmackDown 2001-09-04" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="SmackDown 2001",SmackDown! - 04/09/2001
 https://archive.org/download/2001.03.15/2001.09.04.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-09-10" tvg-name="RAW 2001-09-10" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hWyxKRbOMzp1ng6QDzfJmoMeapT.jpg" group-title="WWF RAW 2001",WWF RAW is WAR - 10/09/2001
+#EXTINF:-1 tvg-id="RAW-2001-09-10" tvg-name="RAW 2001-09-10" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hWyxKRbOMzp1ng6QDzfJmoMeapT.jpg" tvg-description="Steve Austin reagrupa a The Alliance buscando vengarse de la humillación provocada por Kurt Angle. Rob Van Dam defiende su cetro Hardcore. Test & Stephanie chocan ante The Rock." group-title="RAW 2001",RAW is WAR - 10/09/2001
 https://archive.org/download/WAR-2001/2001-09-10.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-09-13" tvg-name="SmackDown 2001-09-13" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2oj1HQg3CJrbORwX8Kj50jSvI6F.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 13/09/2001 (Post 9/11 Tribute)
+#EXTINF:-1 tvg-id="SD-2001-09-13" tvg-name="SmackDown 2001-09-13" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2oj1HQg3CJrbORwX8Kj50jSvI6F.jpg" group-title="SmackDown 2001",SmackDown! - 13/09/2001
 https://archive.org/download/2001.03.15/2001.09.13.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-09-17" tvg-name="RAW 2001-09-17" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/acLK418SAck49NoG5baaMseEO2r.jpg" group-title="WWF RAW 2001",WWF RAW - 17/09/2001
+#EXTINF:-1 tvg-id="RAW-2001-09-17" tvg-name="RAW 2001-09-17" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/acLK418SAck49NoG5baaMseEO2r.jpg" tvg-description="En un ambiente lleno de patriotismo tras los eventos del 11 de septiembre, Kurt Angle y Chris Jericho hacen equipo contra Steve Austin y RVD. The Rock entra en acción de nuevo." group-title="RAW 2001",RAW - 17/09/2001
 https://archive.org/download/WAR-2001/2001-09-17.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-09-20" tvg-name="SmackDown 2001-09-20" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/qPmLtsTVrWPOqjTyMTEhi24P9Jn.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 20/09/2001
+#EXTINF:-1 tvg-id="SD-2001-09-20" tvg-name="SmackDown 2001-09-20" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/qPmLtsTVrWPOqjTyMTEhi24P9Jn.jpg" group-title="SmackDown 2001",SmackDown! - 20/09/2001
 https://archive.org/download/2001.03.15/2001.09.20.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-09-24" tvg-name="RAW 2001-09-24" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xBYN6st7n7ImJklU2dBBWVM0yli.jpg" group-title="WWF RAW 2001",WWF RAW - 24/09/2001
+#EXTINF:-1 tvg-id="RAW-2001-09-24" tvg-name="RAW 2001-09-24" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xBYN6st7n7ImJklU2dBBWVM0yli.jpg" tvg-description="Con Steve Austin perdiendo el Campeonato de la WWE ante Kurt Angle, The Alliance busca reestructurarse. Booker T intenta recuperar la presea dorada, mientras RVD va por el título de WCW." group-title="RAW 2001",RAW - 24/09/2001
 https://archive.org/download/WAR-2001/2001-09-24.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-09-27" tvg-name="SmackDown 2001-09-27" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 27/09/2001
+#EXTINF:-1 tvg-id="SD-2001-09-27" tvg-name="SmackDown 2001-09-27" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="SmackDown 2001",SmackDown! - 27/09/2001
 https://archive.org/download/2001.03.15/2001.09.27.mp4
 
 # --- OCTUBRE 2001 ---
-#EXTINF:-1 tvg-id="RAW-2001-10-01" tvg-name="RAW 2001-10-01" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/wmDCGlXSA8c20KVWfpXW3BNAe4v.jpg" group-title="WWF RAW 2001",WWF RAW - 01/10/2001
+#EXTINF:-1 tvg-id="RAW-2001-10-01" tvg-name="RAW 2001-10-01" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/wmDCGlXSA8c20KVWfpXW3BNAe4v.jpg" tvg-description="Shane McMahon obliga a The Rock a enfrentarse a los Dudley Boyz en una Lucha de Mesas. Chris Jericho se une a los Brothers of Destruction contra RVD, Test y Booker T." group-title="RAW 2001",RAW - 01/10/2001
 https://archive.org/download/WAR-2001/2001-10-01.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-10-04" tvg-name="SmackDown 2001-10-04" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 04/10/2001
+#EXTINF:-1 tvg-id="SD-2001-10-04" tvg-name="SmackDown 2001-10-04" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="SmackDown 2001",SmackDown! - 04/10/2001
 https://archive.org/download/2001.03.15/2001.10.04.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-10-08" tvg-name="RAW 2001-10-08" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vB2YJqWLFHLVSrCxDoMWxg5MMV8.jpg" group-title="WWF RAW 2001",WWF RAW - 08/10/2001
+#EXTINF:-1 tvg-id="RAW-2001-10-08" tvg-name="RAW 2001-10-08" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vB2YJqWLFHLVSrCxDoMWxg5MMV8.jpg" tvg-description="Stone Cold retorna decidido a reclamar el Campeonato de la WWE de manos de Kurt Angle. Aparecen fuertes tensiones internas cuando Jericho y The Rock deben unirse para encarar a Shane McMahon y RVD." group-title="RAW 2001",RAW - 08/10/2001
 https://archive.org/download/WAR-2001/2001-10-08.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-10-11" tvg-name="SmackDown 2001-10-11" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rMDMKADIJyiIdhWRnAHRLVQovuZ.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 11/10/2001
+#EXTINF:-1 tvg-id="SD-2001-10-11" tvg-name="SmackDown 2001-10-11" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rMDMKADIJyiIdhWRnAHRLVQovuZ.jpg" group-title="SmackDown 2001",SmackDown! - 11/10/2001
 https://archive.org/download/2001.03.15/2001.10.11.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-10-15" tvg-name="RAW 2001-10-15" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kCdZ1CrkDPkzwA30HglFKCJHBOA.jpg" group-title="WWF RAW 2001",WWF RAW - 15/10/2001
+#EXTINF:-1 tvg-id="RAW-2001-10-15" tvg-name="RAW 2001-10-15" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kCdZ1CrkDPkzwA30HglFKCJHBOA.jpg" tvg-description="El Campeón de la WWE Stone Cold Steve Austin incita a Rob Van Dam a perseguir de nuevo el Campeonato Mundial de WCW que posee The Rock. Acción de Booker T y Edge." group-title="RAW 2001",RAW - 15/10/2001
 https://archive.org/download/WAR-2001/2001-10-15.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-10-18" tvg-name="SmackDown 2001-10-18" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 18/10/2001
+#EXTINF:-1 tvg-id="SD-2001-10-18" tvg-name="SmackDown 2001-10-18" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="SmackDown 2001",SmackDown! - 18/10/2001
 https://archive.org/download/2001.03.15/2001.10.18.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-10-22" tvg-name="RAW 2001-10-22" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/lyGzJrAMM1ZpCDIfNG6897lazoc.jpg" group-title="WWF RAW 2001",WWF RAW - 22/10/2001
+#EXTINF:-1 tvg-id="RAW-2001-10-22" tvg-name="RAW 2001-10-22" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/lyGzJrAMM1ZpCDIfNG6897lazoc.jpg" tvg-description="Linda McMahon propone un combate histórico de 'El Ganador se lo Lleva Todo' para Survivor Series. Pese a sus disputas, Y2J y The Rock forman equipo para retar a los Dudleys por el título de parejas." group-title="RAW 2001",RAW - 22/10/2001
 https://archive.org/download/WAR-2001/2001-10-22.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-10-25" tvg-name="SmackDown 2001-10-25" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/qPmLtsTVrWPOqjTyMTEhi24P9Jn.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 25/10/2001
+#EXTINF:-1 tvg-id="SD-2001-10-25" tvg-name="SmackDown 2001-10-25" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/qPmLtsTVrWPOqjTyMTEhi24P9Jn.jpg" group-title="SmackDown 2001",SmackDown! - 25/10/2001
 https://archive.org/download/2001.03.15/2001.10.25.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-10-29" tvg-name="RAW 2001-10-29" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xNFumbn31fMf5ble2XWxgXcHBUu.jpg" group-title="WWF RAW 2001",WWF RAW - 29/10/2001
+#EXTINF:-1 tvg-id="RAW-2001-10-29" tvg-name="RAW 2001-10-29" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xNFumbn31fMf5ble2XWxgXcHBUu.jpg" tvg-description="Mr. McMahon revela la existencia de un desertor en The Alliance. Mientras Steve Austin intenta descifrar quién es el topo, Vince se prepara para una Pelea Callejera contra Shane." group-title="RAW 2001",RAW - 29/10/2001
 https://archive.org/download/WAR-2001/2001-10-29.mp4
 
 # --- NOVIEMBRE 2001 ---
-#EXTINF:-1 tvg-id="SD-2001-11-01" tvg-name="SmackDown 2001-11-01" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 01/11/2001
+#EXTINF:-1 tvg-id="SD-2001-11-01" tvg-name="SmackDown 2001-11-01" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="SmackDown 2001",SmackDown! - 01/11/2001
 https://archive.org/download/2001.03.15/2001.11.01.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-11-05" tvg-name="RAW 2001-11-05" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hmhn1mf69i2y8CSNV2ehkXRefrl.jpg" group-title="WWF RAW 2001",WWF RAW - 05/11/2001
+#EXTINF:-1 tvg-id="RAW-2001-11-05" tvg-name="RAW 2001-11-05" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hmhn1mf69i2y8CSNV2ehkXRefrl.jpg" tvg-description="Vince genera confusión afirmando que Steve Austin cambiará de bando a la WWE. La tensión explota entre bastidores. The Rock combate ante Chris Jericho por el oro de WCW." group-title="RAW 2001",RAW - 05/11/2001
 https://archive.org/download/WAR-2001/2001-11-05.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-11-08" tvg-name="SmackDown 2001-11-08" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 08/11/2001
+#EXTINF:-1 tvg-id="SD-2001-11-08" tvg-name="SmackDown 2001-11-08" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="SmackDown 2001",SmackDown! - 08/11/2001
 https://archive.org/download/2001.03.15/2001.11.08.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-11-12" tvg-name="RAW 2001-11-12" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vB2YJqWLFHLVSrCxDoMWxg5MMV8.jpg" group-title="WWF RAW 2001",WWF RAW - 12/11/2001
-https://archive.org/download/WAR-2001/2001-11-12.mp4
+#EXTINF:-1 tvg-id="RAW-2001-11-12" tvg-name="RAW 2001-11-12" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vB2YJqWLFHLVSrCxDoMWxg5MMV8.jpg" tvg-description="Careo cara a cara entre The Rock y Steve Austin. El Comisionado Mick Foley realiza un anuncio transformador sobre la unificación de los campeonatos antes de Survivor Series." group-title="RAW 2001",RAW - 12/11/2001
+https://archive.org/download/WAR-2001/2001-12-11.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-11-15" tvg-name="SmackDown 2001-11-15" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rMDMKADIJyiIdhWRnAHRLVQovuZ.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 15/11/2001
+#EXTINF:-1 tvg-id="SD-2001-11-15" tvg-name="SmackDown 2001-11-15" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/rMDMKADIJyiIdhWRnAHRLVQovuZ.jpg" group-title="SmackDown 2001",SmackDown! - 15/11/2001
 https://archive.org/download/2001.03.15/2001.11.15.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-11-19" tvg-name="RAW 2001-11-19" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xBYN6st7n7ImJklU2dBBWVM0yli.jpg" group-title="WWF RAW 2001",WWF RAW - 19/11/2001 (Post-Survivor Series)
+#EXTINF:-1 tvg-id="RAW-2001-11-19" tvg-name="RAW 2001-11-19" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xBYN6st7n7ImJklU2dBBWVM0yli.jpg" tvg-description="Tras el triunfo de la WWE en Survivor Series, la invasión ha llegado a su fin. Vince McMahon inaugura el club 'Kiss My Ass' para aquellos que buscan salvar sus empleos. Ric Flair regresa a la WWE." group-title="RAW 2001",RAW - 19/11/2001
 https://archive.org/download/WAR-2001/2001-11-19.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-11-22" tvg-name="SmackDown 2001-11-22" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 22/11/2001
+#EXTINF:-1 tvg-id="SD-2001-11-22" tvg-name="SmackDown 2001-11-22" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="SmackDown 2001",SmackDown! - 22/11/2001
 https://archive.org/download/2001.03.15/2001.11.22.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-11-26" tvg-name="RAW 2001-11-26" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kCdZ1CrkDPkzwA30HglFKCJHBOA.jpg" group-title="WWF RAW 2001",WWF RAW - 26/11/2001
+#EXTINF:-1 tvg-id="RAW-2001-11-26" tvg-name="RAW 2001-11-26" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/kCdZ1CrkDPkzwA30HglFKCJHBOA.jpg" tvg-description="Vince McMahon planea humillar a Steve Austin obligándolo a unirse a su club, pero las cosas dan un giro inesperado. Edge defiende el Campeonato Intercontinental frente a Test." group-title="RAW 2001",RAW - 26/11/2001
 https://archive.org/download/WAR-2001/2001-11-26.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-11-29" tvg-name="SmackDown 2001-11-29" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 29/11/2001
+#EXTINF:-1 tvg-id="SD-2001-11-29" tvg-name="SmackDown 2001-11-29" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="SmackDown 2001",SmackDown! - 29/11/2001
 https://archive.org/download/2001.03.15/2001.11.29.mp4
 
 # --- DICIEMBRE 2001 ---
-#EXTINF:-1 tvg-id="RAW-2001-12-03" tvg-name="RAW 2001-12-03" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hWyxKRbOMzp1ng6QDzfJmoMeapT.jpg" group-title="WWF RAW 2001",WWF RAW - 03/12/2001
+#EXTINF:-1 tvg-id="RAW-2001-12-03" tvg-name="RAW 2001-12-03" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/hWyxKRbOMzp1ng6QDzfJmoMeapT.jpg" tvg-description="Antes del torneo para coronar al primer Campeón Indiscutido en Vengeance, Ric Flair le concede una oportunidad a Chris Jericho frente a Steve Austin. Trish Stratus & The Rock unen fuerzas." group-title="RAW 2001",RAW - 03/12/2001
 https://archive.org/download/WAR-2001/2001-12-03.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-12-06" tvg-name="SmackDown 2001-12-06" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2oj1HQg3CJrbORwX8Kj50jSvI6F.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 06/12/2001
+#EXTINF:-1 tvg-id="SD-2001-12-06" tvg-name="SmackDown 2001-12-06" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/2oj1HQg3CJrbORwX8Kj50jSvI6F.jpg" group-title="SmackDown 2001",SmackDown! - 06/12/2001
 https://archive.org/download/2001.03.15/2001.12.06.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-12-10" tvg-name="RAW 2001-12-10" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/acLK418SAck49NoG5baaMseEO2r.jpg" group-title="WWF RAW 2001",WWF RAW - 10/12/2001 (Post-Vengeance)
+#EXTINF:-1 tvg-id="RAW-2001-12-10" tvg-name="RAW 2001-12-10" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/acLK418SAck49NoG5baaMseEO2r.jpg" tvg-description="Chris Jericho defiende su recién ganado Campeonato Indiscutido dentro de una Jaula de Acero ante Stone Cold Steve Austin. Vince envía a Booker T a intervenir en las decisiones de Ric Flair." group-title="RAW 2001",RAW - 10/12/2001
 https://archive.org/download/WAR-2001/2001-12-10.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-12-13" tvg-name="SmackDown 2001-12-13" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/qPmLtsTVrWPOqjTyMTEhi24P9Jn.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 13/12/2001
+#EXTINF:-1 tvg-id="SD-2001-12-13" tvg-name="SmackDown 2001-12-13" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/qPmLtsTVrWPOqjTyMTEhi24P9Jn.jpg" group-title="SmackDown 2001",SmackDown! - 13/12/2001
 https://archive.org/download/2001.03.15/2001.12.13.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-12-17" tvg-name="RAW 2001-12-17" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xBYN6st7n7ImJklU2dBBWVM0yli.jpg" group-title="WWF RAW 2001",WWF RAW - 17/12/2001
+#EXTINF:-1 tvg-id="RAW-2001-12-17" tvg-name="RAW 2001-12-17" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/xBYN6st7n7ImJklU2dBBWVM0yli.jpg" tvg-description="Chris Jericho arriesga el Campeonato Indiscutido frente a Rob Van Dam con Ric Flair como árbitro especial. Steve Austin embosca a Booker T. The Undertaker defiende el título Hardcore ante Jeff Hardy." group-title="RAW 2001",RAW - 17/12/2001
 https://archive.org/download/WAR-2001/2001-12-17.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-12-20" tvg-name="SmackDown 2001-12-20" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 20/12/2001
+#EXTINF:-1 tvg-id="SD-2001-12-20" tvg-name="SmackDown 2001-12-20" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/q1EakWfy7cRBTvrKC8tsREw1sYj.jpg" group-title="SmackDown 2001",SmackDown! - 20/12/2001
 https://archive.org/download/2001.03.15/2001.12.20.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-12-24" tvg-name="RAW 2001-12-24" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/wmDCGlXSA8c20KVWfpXW3BNAe4v.jpg" group-title="WWF RAW 2001",WWF RAW - 24/12/2001
+#EXTINF:-1 tvg-id="RAW-2001-12-24" tvg-name="RAW 2001-12-24" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/wmDCGlXSA8c20KVWfpXW3BNAe4v.jpg" tvg-description="Especial de Nochebuena: Jericho pone en juego el Campeonato Indiscutido ante Kurt Angle y The Rock en una Amenaza Triple sin descalificación. Fiestas navideñas separadas entre Vince McMahon y Ric Flair." group-title="RAW 2001",RAW - 24/12/2001
 https://archive.org/download/WAR-2001/2001-12-24.mp4
 
-#EXTINF:-1 tvg-id="SD-2001-12-27" tvg-name="SmackDown 2001-12-27" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="WWF SmackDown 2001",WWF SmackDown! - 27/12/2001
+#EXTINF:-1 tvg-id="SD-2001-12-27" tvg-name="SmackDown 2001-12-27" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/sGcSMhT0JNiEIGnl0rlFp2HKY9U.jpg" group-title="SmackDown 2001",SmackDown! - 27/12/2001
 https://archive.org/download/2001.03.15/2001.12.27.mp4
 
-#EXTINF:-1 tvg-id="RAW-2001-12-31" tvg-name="RAW 2001-12-31" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vB2YJqWLFHLVSrCxDoMWxg5MMV8.jpg" group-title="WWF RAW 2001",WWF RAW - 31/12/2001
+#EXTINF:-1 tvg-id="RAW-2001-12-31" tvg-name="RAW 2001-12-31" tvg-logo="https://media.themoviedb.org/t/p/w220_and_h330_face/vB2YJqWLFHLVSrCxDoMWxg5MMV8.jpg" tvg-description="Final de temporada: Recuento con el Top 10 de las mejores luchas del año 2001. Revive el choque histórico entre Steve Austin y The Rock en WrestleMania X-Seven y la épica TLC entre Dudleys, Hardys y Edge & Christian." group-title="RAW 2001",RAW - 31/12/2001
 https://archive.org/download/WAR-2001/2001-12-31.mp4
-
-```
